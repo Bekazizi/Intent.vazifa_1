@@ -13,17 +13,17 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        initViews();
+//        initViews();
     }
-    void initViews(){
-        TextView tv_detail = (TextView) findViewById(R.id.tv_detail);
-
-        String name = getIntent().getStringExtra("name");
-        Log.d(TAG, name);
-
-        String age = getIntent().getStringExtra("age");
-        Log.d(TAG, age);
-
-        tv_detail.setText("name: "+ name + " age: "+age);
-    }
+//    void initViews(){
+//        TextView tv_detail = (TextView) findViewById(R.id.tv_detail);
+//
+//        String name = getIntent().getStringExtra("name");
+//        Log.d(TAG, name);
+//
+//        String age = getIntent().getStringExtra("age");
+//        Log.d(TAG, age);
+//
+//        tv_detail.setText("name: "+ name + " age: "+age);
+//    }
 }
