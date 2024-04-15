@@ -10,7 +10,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="20dp"
+        android:padding="25dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -39,6 +39,12 @@
             android:id="@+id/et_user_pw"
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/b_user"
+            android:layout_marginTop="20dp"
+            android:text="LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
